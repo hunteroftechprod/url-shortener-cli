@@ -1,0 +1,65 @@
+[ {
+  "shortCode" : "lAymFx2",
+  "longUrl" : "https://example.com",
+  "ownerId" : "4f3a03bf-88a5-4c9d-97f6-79522a0d83d2",
+  "maxClicks" : 2,
+  "clicks" : 2,
+  "createdAt" : 1762430989.178080000,
+  "expiresAt" : 1762434589.178080000
+}, {
+  "shortCode" : "IE4rLnQ",
+  "longUrl" : "https://example.com",
+  "ownerId" : "4f3a03bf-88a5-4c9d-97f6-79522a0d83d2",
+  "maxClicks" : 2,
+  "clicks" : 2,
+  "createdAt" : 1762431252.193541000,
+  "expiresAt" : 1762434852.193541000
+}, {
+  "shortCode" : "VaSnXSW",
+  "longUrl" : "https://example.com",
+  "ownerId" : "4f3a03bf-88a5-4c9d-97f6-79522a0d83d2",
+  "maxClicks" : 2,
+  "clicks" : 2,
+  "createdAt" : 1762431242.635758000,
+  "expiresAt" : 1762434842.635758000
+}, {
+  "shortCode" : "blSiY7G",
+  "longUrl" : "https://example.com",
+  "ownerId" : "4f3a03bf-88a5-4c9d-97f6-79522a0d83d2",
+  "maxClicks" : 2,
+  "clicks" : 2,
+  "createdAt" : 1762431180.337954000,
+  "expiresAt" : 1762434780.337954000
+}, {
+  "shortCode" : "N8zfEQy",
+  "longUrl" : "https://example.com",
+  "ownerId" : "4f3a03bf-88a5-4c9d-97f6-79522a0d83d2",
+  "maxClicks" : 2,
+  "clicks" : 2,
+  "createdAt" : 1762431126.329533000,
+  "expiresAt" : 1762434726.329533000
+}, {
+  "shortCode" : "KWsPxue",
+  "longUrl" : "https://example.com",
+  "ownerId" : "4f3a03bf-88a5-4c9d-97f6-79522a0d83d2",
+  "maxClicks" : 2,
+  "clicks" : 2,
+  "createdAt" : 1762430986.029309000,
+  "expiresAt" : 1762434586.029309000
+}, {
+  "shortCode" : "sRmdTYa",
+  "longUrl" : "https://example.com",
+  "ownerId" : "4f3a03bf-88a5-4c9d-97f6-79522a0d83d2",
+  "maxClicks" : 2,
+  "clicks" : 2,
+  "createdAt" : 1762430620.868346000,
+  "expiresAt" : 1762434220.868346000
+}, {
+  "shortCode" : "lqIEfZI",
+  "longUrl" : "https://example.com",
+  "ownerId" : "4f3a03bf-88a5-4c9d-97f6-79522a0d83d2",
+  "maxClicks" : 2,
+  "clicks" : 2,
+  "createdAt" : 1762431123.092202000,
+  "expiresAt" : 1762434723.092202000
+} ]
