@@ -1,3 +1,4 @@
+![CI](https://github.com/hunteroftechprod/url-shortener-cli/actions/workflows/maven.yml/badge.svg)
 # URL Shortener CLI
 
 CLI-сервис сокращения ссылок с лимитами переходов, TTL и правами владельца (UUID).
