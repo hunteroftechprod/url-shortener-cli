@@ -148,7 +148,7 @@ public class ExtraTests {
     void edit_requires_owner_and_applies_changes() {
         ShortenerService svc = newService(3600);
         UUID owner = UUID.randomUUID();
-        Link link = svc.createShortLink(owner, "https://owner.test", 1, Duration.ofHours(1));
+        Link link = svc.createShortLink(owner, "https://example.com/owner", 1, Duration.ofHours(1));
         // увеличим лимит и TTL
         svc.edit(owner, link.shortCode(), 10, 2L);
         assertEquals(ResolveStatus.OK, svc.resolve(link.shortCode()).status());
@@ -159,7 +159,7 @@ public class ExtraTests {
         ShortenerService svc = newService(3600);
         UUID owner = UUID.randomUUID();
         UUID stranger = UUID.randomUUID();
-        Link link = svc.createShortLink(owner, "https://secure.edit", 1, Duration.ofHours(1));
+        Link link = svc.createShortLink(owner, "https://example.com/secure-edit", 1, Duration.ofHours(1));
         assertThrows(SecurityException.class, () -> svc.edit(stranger, link.shortCode(), 5, 1L));
     }
 
@@ -168,7 +168,7 @@ public class ExtraTests {
         ShortenerService svc = newService(3600);
         UUID owner = UUID.randomUUID();
         UUID stranger = UUID.randomUUID();
-        Link link = svc.createShortLink(owner, "https://secure.delete", 1, Duration.ofHours(1));
+        Link link = svc.createShortLink(owner, "https://example.com/secure-delete", 1, Duration.ofHours(1));
         assertThrows(SecurityException.class, () -> svc.delete(stranger, link.shortCode()));
     }
 }
