@@ -39,3 +39,11 @@ ui/ — CLI
 
 ## Зависимости
 Maven: commons-validator, jackson, junit-jupiter
+
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Build](https://img.shields.io/github/actions/workflow/status/hunteroftechprod/url-shortener-cli/ci.yml?label=build)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![Version](https://img.shields.io/github/v/release/hunteroftechprod/url-shortener-cli?color=blue)
+![Lines of code](https://img.shields.io/tokei/lines/github/hunteroftechprod/url-shortener-cli)
+![Repo size](https://img.shields.io/github/repo-size/hunteroftechprod/url-shortener-cli)
+
