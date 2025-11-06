@@ -1,3 +1,5 @@
+![Java](https://img.shields.io/badge/Java-17-blue) ![Build](https://img.shields.io/github/actions/workflow/status/hunteroftechprod/url-shortener-cli/ci.yml?label=build) ![Tests](https://img.shields.io/badge/tests-passing-brightgreen) ![Version](https://img.shields.io/github/v/release/hunteroftechprod/url-shortener-cli?color=blue)
+
 ![CI](https://github.com/hunteroftechprod/url-shortener-cli/actions/workflows/maven.yml/badge.svg)
 # URL Shortener CLI
 
