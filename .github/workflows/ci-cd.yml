@@ -9,7 +9,7 @@ jobs:
   build_test:
     name: Build and Test (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
-
+    
     strategy:
       fail-fast: false
       matrix:
